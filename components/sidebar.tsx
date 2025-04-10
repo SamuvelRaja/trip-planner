@@ -77,13 +77,13 @@ const Sidebar = () => {
         {/* User Profile */}
         <div className="p-4 border-t border-neutral-700/20">
           <div className="flex items-center space-x-3">
-            <Image
+            {/* <Image
              src={"https://avatar.iran.liara.run/public/boy"}
               alt="User Avatar"
               className="w-10 h-10 rounded-full border border-neutral-700/40"
                width={48}
               height={48}
-            />
+            /> */}
             <div>
               <div className="text-sm font-medium">Alex Morgan</div>
               <div className="text-xs text-gray-400">Premium User</div>
