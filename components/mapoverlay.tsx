@@ -17,7 +17,7 @@ import "ol/ol.css";
 
 const MapComponent = ({ checkpoints = [] }) => {
   const mapRef = useRef(null);
-  const mapInstance = useRef(null);
+  const mapInstance = useRef<Map>(null);
   const vectorSource = useRef(new VectorSource());
 
   // Initialize the map
