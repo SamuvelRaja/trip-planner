@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function LoginPage(){
 
 return <>
-<h1 className="text-center">login</h1>
+<h1 className=" text-4xl text-center mb-8">Login</h1>
 <Authform mode="login"/>
 </>
 }

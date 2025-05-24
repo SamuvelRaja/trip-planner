@@ -14,13 +14,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg-primary: #161616;
+    --bg-secondary: #1c1c1c;
+    --border-primary:#393939;
+    --border-secondary:#858585;
+    --text-primary: #bababa;
+    --btn-primary:  #2c2c2c;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--bg-primary);
+  color: var(--text-primary);
   font-family: Arial, Helvetica, sans-serif;
 }

@@ -6,8 +6,10 @@ export default function AuthLayout({
 }>) {
   return (
     < >
-        <main id="authlayout" >
-        {children}
+        <main id="authlayout" className="h-[100dvh] flex justify-center items-center" >
+          <div className="max-w-[320px] w-full">
+            {children}
+          </div>
         </main>
       </>
   );
